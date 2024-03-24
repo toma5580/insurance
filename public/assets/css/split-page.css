@@ -1,0 +1,71 @@
+/*media*/
+@media (max-width: 1260px) {
+.header-search{
+	display: none;
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+aside{
+	margin-left: -300px;
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+aside.show{
+	margin-left: 0px;
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+.page-content {
+	margin-left: 0;
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+header {
+	padding-left: 25px;
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+.small-monitor {
+	display: block;
+}
+.sm-show {
+	display: block;
+}
+}
+@media (max-width: 992px) {
+.right-bar-profile {
+    width: 100%;
+    position: relative !important;
+    top: 0px;
+    height: auto;
+    border-radius: 0 !important;
+}
+.half-page-content {
+    margin-right: 0;
+}
+.half-page-content .client-details {
+    display: none;
+}
+.scrollbar.scroll-content {
+    overflow: visible !important;
+}
+}
+@media (max-width: 640px){
+.right-bar-profile {
+    width: 100%;
+    position: relative !important;
+    height: auto;
+    border-radius: 0 !important;
+    margin-bottom: 30px;
+}
+}
